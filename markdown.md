@@ -2,14 +2,17 @@
 <br/><br/>
 my personal markdown cheat sheet. 
 
-heavily inspired from "The Markdown Guide" book.
+heavily inspired by "The Markdown Guide" book.
 
 <br/>
 <br/>
 
 
-## heading:
+## Headings
 
+<br/>
+<br/>
+<br/>
 
 # Heading leve 1
 ## Heading level 2
@@ -19,7 +22,7 @@ heavily inspired from "The Markdown Guide" book.
 ###### Heading level 6
 
 
-## seperate lines: 
+## Seperate Lines
 + empty line
 
 or
@@ -29,7 +32,7 @@ or
 <br/>
 hi
 
-## bold and italic:
+## Bold and Italic
 
 I love **bold text** .
 
@@ -51,7 +54,7 @@ this is **_bold and italic_**.
 this is _**bold and italic**_.
 
 
-## blockquote:
+## Blockquote
 
 > i dont know what is blockquote but here you go.
 
@@ -60,7 +63,7 @@ this is _**bold and italic**_.
 > can be  
 >> nested wow
 
-## order list:
+## Order List
 
 1. one
 2. two
@@ -73,7 +76,7 @@ this is _**bold and italic**_.
 2. wow
 4. it just dont care
 
-## unorderd list:
+## Unorderd List
 
 + item 1
 + item 2 
@@ -118,7 +121,7 @@ this is _**bold and italic**_.
 + item 4
 
 
-## code block:
+## Code Block
 
 1. open the file.
 2. Find this line of code :
@@ -132,7 +135,7 @@ this is _**bold and italic**_.
 
 <!-- this dose not work -->
 
-## images:
+## Images
 
 1. fist command
 2. second command
@@ -142,7 +145,7 @@ this is _**bold and italic**_.
 3. third command
 
 
-## code:
+## Code
 
 + to denote a word or phrase as a code, enclose it in tick marks (`).
 
@@ -154,7 +157,7 @@ At the command prompt type `vim`.
 
 <!-- did not worked as i wished. -->
 
-## horizontal rule:
+## Horizontal Rule
 
 ***
 
@@ -163,15 +166,15 @@ At the command prompt type `vim`.
 ____________________
 
 
-## links:
+## Links
 
 Use [Duck Duck Go](https://duckduckgo.com).
 
-### adding titles:
+### Adding Titles:
 
 Use [Duck Duck Go](https://duckduckgo.com "My search engine!").
 
-### urls and emails:
+### URLs and Emails:
 
 To quickly turn a URL or email address into a link, enclose it in angle brackets.
 
@@ -179,5 +182,72 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
 
 <fake@example.com>
 
+### Link Formatting:
+
++ To emphasize links, add astrisks befor and after the brackets and parantheses.
 
 
+I love supporting **[EFF](https://eff.org)**.
+
+This is the *[EFF](https://eff.org)*.
+
+### Refrence-Style Links:
+
+<!-- TODO -->
+
+
+## Tables
+
+| column 1 | column 2 |
+| ---| -------- |
+| cell 1 | cell 2   |
+| cell 3      |  cell4   |
+| cell 5   | cell 6   |
+| cell 7   |  cell8   |
+
++ Cell widths can vary, as shown below. The rendered output will look the same.
+
+### Alignment:
+
+| column 1 | column 2 | column 3|
+| :---     | :------: |  ----:  |
+| cell 1   | cell 2   | cell 9  |
+| cell 3   |  cell4   | cell 10 |
+| cell 5   | cell 6   | cell 11 |
+| cell 7   |  cell8   | cell 12 |
+
+
+
+### Formatting Text in Tables:
+
+<!-- TODO -->
+
+## Syntax Highlighting:
+
+
+JSON
+```json
+{
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 25
+}
+```
+
+
+python code 
+``` python
+
+for item in sorted_list:
+    print(item)
+
+```
+
+
+## Heading IDs
+
+<!-- TODO -->
+
+### Linking to Heading IDs:
+
+<!-- TODO -->
